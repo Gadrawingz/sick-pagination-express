@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "_id": "product1",
+            "image": "images/product1.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium"],
+            "price": 35.6
+        },
+        {
+            "_id": "product2",
+            "image": "images/product2.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium"],
+            "price": 500.3
+        },
+        {
+            "_id": "product3",
+            "image": "images/product3.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium"],
+            "price": 222.6
+        },
+        {
+            "_id": "product4",
+            "image": "images/product4.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium", "Large"],
+            "price": 35.6
+        },
+        {
+            "_id": "product5",
+            "image": "images/product5.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium", "Short"],
+            "price": 35.6
+        },
+        {
+            "_id": "product6",
+            "image": "images/product6.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium", "XXL"],
+            "price": 35.6
+        },
+        {
+            "_id": "product7",
+            "image": "images/product3.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie, This clothes is superb for evry man I am outie, This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium", "Large"],
+            "price": 506.3
+        },
+        {
+            "_id": "product8",
+            "image": "images/product1.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium", "Short"],
+            "price": 123.6
+        },
+        {
+            "_id": "product9",
+            "image": "images/product5.jpg",
+            "title": "Awesome Wearing",
+            "description": "This clothes is superb for evry man I am outie",
+            "availableSizes": ["Small", "Medium", "XXL"],
+            "price": 6.6
+        }
+    ]
+}

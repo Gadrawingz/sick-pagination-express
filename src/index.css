@@ -1,0 +1,164 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body, #root {
+  height: 100vh;
+  margin: 0; 
+}
+
+body, input, select, textarea {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-columns: 1fr;
+}
+
+header {
+  grid-area: header;
+  background-color: #0b5345;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+}
+
+header a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #FF8000;
+}
+
+
+main {
+  grid-area: main;
+  display: flex;
+  height: 100%;
+  padding: .5rem;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #0b5345;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Part 2 */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+   flex: 3 60rem;
+}
+
+.main {
+  flex: 3 60rem;
+}
+
+.sidebar {
+  flex: 1 20rem;
+  background-color: blanchedalmond;
+}
+
+/* products */
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.products li {
+  flex: 0 1 29rem;
+  height: 47rem;
+  padding: 1rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #d5f5e3;
+  padding: 4px;
+}
+
+
+.product img {
+  max-width: 37rem;
+  max-height: 37rem;
+  border: 1px solid green;
+}
+
+.product a{
+  background-color: #7e5109;
+  color: white;
+  text-decoration: none;
+}
+
+.product a:hover {
+  background-color: #000000;
+  color: #FFF;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-price div,
+.product-price button {
+  text-align: center;
+  flex: 1;
+}
+
+.product-price div {
+  font-size: 2rem;
+}
+
+.button {
+  padding: 1rem;
+  border: 0.1rem #c0c0c0 solid;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 0.1rem #808080 solid;
+}
+
+.button.primary {
+  background-color: #eafaf1;
+}
+
+
+/* Filter */
+
+.filter {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 0.1rem #c0c0c0 solid;
+}
