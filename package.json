@@ -1,0 +1,39 @@
+{
+  "name": "mysql6-pagination",
+  "version": "1.0.0",
+  "description": "For using pagination with node/express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gadrawingz/sick-pagination-express.git"
+  },
+  "keywords": [
+    "express",
+    "pagination",
+    "ejs",
+    "node.js"
+  ],
+  "author": "Gad Iradufasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gadrawingz/sick-pagination-express/issues"
+  },
+  "homepage": "https://github.com/Gadrawingz/sick-pagination-express#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-ejs-layouts": "^2.5.1",
+    "mysql": "^2.18.1",
+    "pagination": "^0.4.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
